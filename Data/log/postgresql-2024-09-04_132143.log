@@ -1,0 +1,37 @@
+2024-09-04 13:21:43.577 IST [61164] LOG:  database system was shut down at 2024-09-04 13:21:36 IST
+2024-09-04 13:25:42.731 IST [52216] ERROR:  column "version" does not exist at character 8
+2024-09-04 13:25:42.731 IST [52216] STATEMENT:  select version;
+2024-09-04 13:26:43.542 IST [30320] LOG:  checkpoint starting: time
+2024-09-04 13:26:51.103 IST [30320] LOG:  checkpoint complete: wrote 72 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=7.497 s, sync=0.047 s, total=7.562 s; sync files=32, longest=0.003 s, average=0.002 s; distance=390 kB, estimate=390 kB; lsn=0/15D4898, redo lsn=0/15D4860
+2024-09-04 13:36:43.118 IST [30320] LOG:  checkpoint starting: time
+2024-09-04 13:37:48.820 IST [31076] ERROR:  relation "_prisma_migrations" does not exist at character 126
+2024-09-04 13:37:48.820 IST [31076] STATEMENT:  SELECT "id", "checksum", "finished_at", "migration_name", "logs", "rolled_back_at", "started_at", "applied_steps_count" FROM "_prisma_migrations" ORDER BY "started_at" ASC
+2024-09-04 13:37:49.666 IST [30320] LOG:  checkpoint complete: wrote 972 buffers (5.9%); 1 WAL file(s) added, 0 removed, 0 recycled; write=66.009 s, sync=0.363 s, total=66.550 s; sync files=300, longest=0.008 s, average=0.002 s; distance=4559 kB, estimate=4559 kB; lsn=0/1EBC8E0, redo lsn=0/1A487B0
+2024-09-04 13:37:49.685 IST [30320] LOG:  checkpoint starting: immediate force wait
+2024-09-04 13:37:49.702 IST [30320] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.004 s, total=0.017 s; sync files=3, longest=0.002 s, average=0.002 s; distance=4560 kB, estimate=4560 kB; lsn=0/1EBC990, redo lsn=0/1EBC958
+2024-09-04 13:37:50.339 IST [30320] LOG:  checkpoint starting: immediate force wait
+2024-09-04 13:37:50.369 IST [30320] LOG:  checkpoint complete: wrote 7 buffers (0.0%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.004 s, sync=0.007 s, total=0.031 s; sync files=5, longest=0.002 s, average=0.002 s; distance=4727 kB, estimate=4727 kB; lsn=0/235A648, redo lsn=0/235A610
+2024-09-04 13:37:51.277 IST [30320] LOG:  checkpoint starting: immediate force wait
+2024-09-04 13:37:51.392 IST [30320] LOG:  checkpoint complete: wrote 81 buffers (0.5%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.011 s, sync=0.090 s, total=0.115 s; sync files=83, longest=0.003 s, average=0.002 s; distance=5059 kB, estimate=5059 kB; lsn=0/284B260, redo lsn=0/284B228
+2024-09-04 13:37:51.894 IST [30320] LOG:  checkpoint starting: immediate force wait
+2024-09-04 13:37:51.913 IST [30320] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.006 s, total=0.020 s; sync files=4, longest=0.002 s, average=0.002 s; distance=4712 kB, estimate=5024 kB; lsn=0/2CE5370, redo lsn=0/2CE5338
+2024-09-04 13:37:51.978 IST [31076] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-04 13:42:51.917 IST [30320] LOG:  checkpoint starting: time
+2024-09-04 13:42:59.107 IST [30320] LOG:  checkpoint complete: wrote 64 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=7.051 s, sync=0.109 s, total=7.190 s; sync files=39, longest=0.064 s, average=0.003 s; distance=189 kB, estimate=4540 kB; lsn=0/2D14918, redo lsn=0/2D148E0
+2024-09-04 15:11:39.466 IST [48556] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-04 17:23:48.556 IST [74412] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-04 17:23:48.557 IST [30944] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-04 17:23:48.558 IST [58340] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-04 17:23:48.560 IST [19468] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-04 17:23:48.561 IST [23088] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-04 17:30:32.584 IST [28760] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-04 17:40:48.653 IST [72964] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	

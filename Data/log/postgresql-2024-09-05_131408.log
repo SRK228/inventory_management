@@ -1,0 +1,12 @@
+2024-09-05 13:14:08.815 IST [7768] LOG:  database system was interrupted; last known up at 2024-09-04 13:42:59 IST
+2024-09-05 13:14:10.375 IST [7768] LOG:  database system was not properly shut down; automatic recovery in progress
+2024-09-05 13:14:10.384 IST [7768] LOG:  redo starts at 0/2D148E0
+2024-09-05 13:14:10.384 IST [7768] LOG:  invalid record length at 0/2D149C8: expected at least 24, got 0
+2024-09-05 13:14:10.384 IST [7768] LOG:  redo done at 0/2D14990 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2024-09-05 13:14:10.391 IST [7740] LOG:  checkpoint starting: end-of-recovery immediate wait
+2024-09-05 13:14:10.407 IST [7740] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.003 s, sync=0.003 s, total=0.018 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB; lsn=0/2D149C8, redo lsn=0/2D149C8
+2024-09-05 13:17:26.125 IST [7096] ERROR:  canceling statement due to user request
+2024-09-05 13:17:26.126 IST [8824] ERROR:  canceling statement due to user request
+2024-09-05 13:17:26.131 IST [7740] LOG:  shutting down
+2024-09-05 13:17:26.132 IST [7740] LOG:  checkpoint starting: shutdown immediate
+2024-09-05 13:17:26.142 IST [7740] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.011 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB; lsn=0/2D14A78, redo lsn=0/2D14A78

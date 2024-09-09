@@ -1,0 +1,11 @@
+2024-09-05 13:17:57.292 IST [8092] LOG:  database system was shut down at 2024-09-05 13:17:26 IST
+2024-09-05 13:23:11.734 IST [8076] LOG:  checkpoint starting: time
+2024-09-05 13:23:11.759 IST [8076] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.003 s, sync=0.005 s, total=0.025 s; sync files=2, longest=0.003 s, average=0.003 s; distance=0 kB, estimate=0 kB; lsn=0/2D14B60, redo lsn=0/2D14B28
+2024-09-07 11:09:34.542 IST [20336] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-07 11:09:34.542 IST [20072] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-07 11:09:34.542 IST [36616] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-07 11:09:34.542 IST [25884] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
